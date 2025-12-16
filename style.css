@@ -1,0 +1,47 @@
+/* style.css */
+
+body {
+    background-color: #f0f8ff; /* AliceBlue - เป็นสีฟ้าที่อ่อนและสบายตา */
+    font-family: 'Sarabun', sans-serif; /* อาจเพิ่ม Google Font เพื่อความสวยงาม */
+}
+
+.content-wrapper {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    color: #0a58ca; /* สีน้ำเงินเข้มขึ้นเล็กน้อยสำหรับหัวข้อ */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ทำให้ตารางดูสะอาดตาขึ้น */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 0.5rem; /* ทำให้มุมของตารางโค้งมน */
+}
+
+.table thead {
+    background-color: #e9ecef; /* สีเทาอ่อนสำหรับหัวตาราง */
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-warning {
+    color: #000;
+}
